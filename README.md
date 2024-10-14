@@ -1,4 +1,4 @@
-# Fatigue_Detection_CNN
+# Fatigue Detection Model Using CNN
 This model has demonstrated superior performance, achieving an 
 impressive accuracy of 99.17% on the DDD dataset, showcasing 
 its effectiveness in detecting drowsiness in images. Additionally, 
