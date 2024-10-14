@@ -19,7 +19,7 @@ image_size = (64, 64)
 
 
 # Prediction on test images
-for i, image_path in enumerate(tqdm(glob('/Users/Renad/Desktop/GP-Models/ToTest/*'))):  # Iterate over test images
+for i, image_path in enumerate(tqdm(glob('/Users/User/Desktop/file/*'))):  # Iterate over test images
        img = Image.open(image_path).convert('L').resize(image_size)  # Load and resize as grayscale
        img_array = np.array(img) / 255.0
        img_array = np.expand_dims(img_array, axis=-1) # Add channel dimension (for grayscale)
