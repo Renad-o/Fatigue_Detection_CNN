@@ -15,3 +15,7 @@ a batch normalization layer for stabilizing training and a max-pooling layer to 
 dropout layers with a rate of 0.3 are interspersed to mitigate overfitting. The feature maps are then flattened and 
 passed through several dense layers with decreasing units (256, 128, and 84), each followed by batch normalization, 
 except for the layer with 128 units. Finally, the output layer consists of a single neuron with a sigmoid activation function.
+
+# Model Tested
+![Tested7](https://github.com/user-attachments/assets/71ceefbb-6025-4295-8cab-8f530503a765)
+![Tested8](https://github.com/user-attachments/assets/2ad8046e-9d4b-4461-8ad1-1c008d37b161)
